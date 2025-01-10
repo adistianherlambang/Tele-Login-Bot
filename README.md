@@ -1,7 +1,9 @@
-# Tele Login Bot
+# Tele Login Bot 
 
 ## Short Description
 Tele Login Bot is a React.js-based application that allows users to log in, then wait for approval from the admin. Once approved, the admin can choose to direct the user to the ID, Address, or SSN page. The login data is sent to a Telegram bot using the `node-telegram-bot-api` on the Node.js backend.
+
+## 🇮🇩 Indonesian Comment
 
 ## Key Features
 - Secure user login process.
