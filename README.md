@@ -97,9 +97,10 @@ This project is not open for contributions.
 ## License
 This project does not use an open license.
 
-## Contact or Additional Information
-- Email: [email@example.com](adistian59@gmail.com)
+## Contact
 
----
+If you have any questions or would like to contribute, feel free to contact me via:
 
-Let me know if you need further adjustments!
+[![Email](https://img.shields.io/badge/Email-adistian59@gmail.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:adistian59@gmail.com)  
+[![Instagram](https://img.shields.io/badge/Instagram-%40adstian__-blue?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/adstian__)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Adistian%20Herlambang-blue?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adistian-herlambang-1562a3198/)
